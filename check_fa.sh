@@ -4,6 +4,7 @@ tmp=/var/tmp/$$
 
 faci_name=$1
 
+### for github actions
 if [ -z $faci_name ];then
   echo "You need to set arg" >&2
   exit 1 
