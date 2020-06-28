@@ -24,9 +24,9 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: install bats
+      run: git clone https://github.com/sstephenson/bats.git
+      working-directory: ./bats
       run: |
-           git clone https://github.com/sstephenson/bats.git
-           working-directory: ./bats
            chmod +x install.sh
            ./install.sh /usr/local
       shell: bash
