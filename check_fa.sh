@@ -4,8 +4,6 @@ tmp=/var/tmp/$$
 
 faci_name=$1
 
-
-
 if [ -z $faci_name ];then
   echo "You need to set arg" >&2
   exit 1 
