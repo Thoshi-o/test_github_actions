@@ -1,2 +1,2 @@
 # test_github_actions
-Practice github actions
+Practice github actions for bash script
