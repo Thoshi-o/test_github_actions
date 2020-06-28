@@ -28,7 +28,7 @@ jobs:
            git clone https://github.com/sstephenson/bats.git
            cd bats
            chmod +x install.sh
-           #./install.sh /usr/local
+           sudo ./install.sh /usr/local
       shell: bash
 
     # Runs a set of commands using the runners shell
