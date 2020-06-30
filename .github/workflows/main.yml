@@ -29,6 +29,8 @@ jobs:
            cd bats
            chmod +x install.sh
            sudo ./install.sh /usr/local
+           cd
+           bats check_fa.sh
       shell: bash
 
     # Runs a set of commands using the runners shell
