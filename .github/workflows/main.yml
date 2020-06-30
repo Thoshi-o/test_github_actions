@@ -29,6 +29,7 @@ jobs:
            cd bats
            chmod +x install.sh
            sudo ./install.sh /usr/local
+           cd /home/runner/work/test_github_actions
            bats ./check_fa.sh
       shell: bash
 
