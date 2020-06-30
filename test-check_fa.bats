@@ -12,6 +12,6 @@
 
 @test "check param if arg is not set" {
   run ./check_fa.sh ""
-  [ $status -eq 1 ]
+  [ $status -eq 2 ]
   [ ${lines[0]} = "You need to set arg" ]
 }
