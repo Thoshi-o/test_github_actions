@@ -30,7 +30,7 @@ jobs:
            chmod +x install.sh
            sudo ./install.sh /usr/local
            cd /home/runner/work/test_github_actions
-           bats ./check_fa.sh
+           ls
       shell: bash
 
     # Runs a set of commands using the runners shell
